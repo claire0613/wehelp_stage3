@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+    margin: 20px;
+}
+section{
+    margin-top: 10px;
+}
+.msg-div{
+    margin: auto ;
+    border-top: 1px solid #666666;
+}
+img{
+    width: 200px;
+}
