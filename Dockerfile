@@ -21,7 +21,7 @@ COPY . .
 #install the need of package in requirement
 RUN pip install -r requirements.txt
 #Make port 3000 available to the world outside
-EXPOSE 80
+EXPOSE 5000
 
 #RUN app.py when launch
 CMD ["python","app.py"]
