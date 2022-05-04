@@ -18,6 +18,11 @@ app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 def index():
     return render_template("index.html")
 
+@app.route("/loaderio-ce8dc6e38fb4f981f9c63b872310eda0/")
+def test():
+    return render_template("test.html")
+
+
 
 
 if __name__ == '__main__':
